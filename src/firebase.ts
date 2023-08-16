@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore/lite";
+import { getFirestore } from "firebase/firestore";
 import { GoogleAuthProvider, getAuth } from "firebase/auth"
 
 const firebaseConfig = {
@@ -8,7 +8,10 @@ const firebaseConfig = {
   projectId: "dicord-clone-c2650",
   storageBucket: "dicord-clone-c2650.appspot.com",
   messagingSenderId: "224837717431",
-  appId: "1:224837717431:web:3ef2a24b87e780a826ec32"
+  appId: "1:224837717431:web:3ef2a24b87e780a826ec32",
+  auth: {
+    popupMode: 'redirect'
+  }
 };
 
 const app = initializeApp(firebaseConfig);
