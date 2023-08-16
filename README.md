@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# 使用方法
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+本アプリは、typescript、react(reduxやhooksなど)、firebaseを用いたdiscordのクローンアプリです。<br>
+URL：https://dicord-clone-c2650.web.app/
 
-## Available Scripts
+1\. こちらがログイン画面となっており、「ログイン」ボタンを押下することで、Google認証ページに飛ばされます。
+![ログイン画面](./READMEimg/1.png)
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+2\. 次に、Googleログイン画面でGmailとパスワードを入力することで、ログインすることができます。
+![Gmailのログイン画面](./READMEimg/2.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3\. ログインに成功すると、以下のようなdiscordクローンのチャットページに飛ばされます。
+![discordクローンのチャットページ](./READMEimg/3.png)
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4\. また、プログラミングチャンネルの右にあるプラスボタンを押すことで、チャンネルを新しく作ることができます。
+![チャンネル作成](./READMEimg/4.png)
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5\. このように新しいチャンネルに移動することができ、下部のテキスト入力欄にテキストを入力してエンターキーを押すことでメッセージを送信することができます。
+![メッセージ送信画面](./READMEimg/5.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+6\. 先ほど送信したメッセージは以下のように表示され、送信日時の早い順から上部に表示されます。
+![結果画面](./READMEimg/6.png)
